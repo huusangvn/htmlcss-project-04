@@ -49,6 +49,7 @@ nav a:hover {
   color: #fff;
   text-align: center;
   background: var(--color-primary);
+  width: 205px;
 }
 
 .btn:hover {
@@ -328,4 +329,169 @@ nav a:hover {
 
 .how__sub-title {
   text-align: start;
+}
+
+/* features */
+.features {
+  margin: 170px;
+}
+
+.features__main-content {
+  display: flex;
+}
+
+.features__list-image {
+  position: relative;
+  margin-right: 130px;
+  width: 570px;
+  height: 491px;
+}
+
+.features__info {
+  margin: auto 0;
+  width: 470px;
+  height: 326px;
+}
+
+.features__img1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 512px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.features__img2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 332px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.features-sub-title {
+  text-align: start;
+}
+
+.features__desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  color: #575f66;
+}
+
+.features__btn {
+  margin-top: 38px;
+}
+
+/* member */
+.member {
+  margin-top: 170px;
+}
+
+.member__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.member__item {
+  width: 270px;
+  border-radius: 6px;
+}
+
+/* img-doctor */
+.member__doctor {
+  display: inline-block;
+  width: 270px;
+  height: 318px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #eaf6ff;
+}
+
+.member__info {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.name-doctor {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #10375c;
+}
+
+.adrres-doctor {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 26px;
+  color: #575f66;
+}
+
+.member__btn {
+  margin: 38px auto 0;
+  width: 205px;
+  padding: 21px 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 30px;
+  background: #2e80ce;
+}
+
+.member__arrow {
+  text-align: center;
+  margin: 38px 0 0;
+}
+
+.arrow__img-left {
+  margin-right: 18px;
+}
+
+/* install */
+.install {
+  margin-top: 256px;
+}
+
+.install__main-content {
+  position: relative;
+  display: flex;
+  background: var(--color-primary);
+}
+
+.install__info {
+  margin: auto;
+  width: 586px;
+  height: 276px;
+}
+
+.install__sub-title {
+  text-align: start;
+  color: #fff;
+}
+
+.install__desc {
+  margin-top: 18px;
+}
+
+.from-install {
+  margin-top: 38px;
+}
+
+.google-play {
+  margin-right: 28px;
+}
+
+.phone {
+  z-index: 1;
+  margin-top: -95px;
+  margin-left: 70px;
 }
