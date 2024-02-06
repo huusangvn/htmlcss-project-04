@@ -447,7 +447,7 @@ nav a:hover {
   background: #2e80ce;
 }
 
-.member__arrow {
+.arrow {
   text-align: center;
   margin: 38px 0 0;
 }
@@ -494,4 +494,110 @@ nav a:hover {
   z-index: 1;
   margin-top: -95px;
   margin-left: 70px;
+}
+
+/* news */
+.news {
+  margin-top: 170px;
+}
+
+.news__header {
+  margin: auto 130px auto 0;
+  width: 470px;
+}
+
+.news__sub-title {
+  text-align: start;
+  margin-bottom: 28px;
+}
+
+.news__link {
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 28px;
+  color: #575f66;
+  text-decoration: underline;
+}
+
+.news__main-content {
+  display: flex;
+}
+
+.news__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__item {
+  width: 270px;
+  border-radius: 12px, 12px, 0px, 0px;
+  border: 1px;
+}
+
+.news__arrow {
+  margin-top: 28px;
+  text-align: start;
+}
+
+.vacine-info {
+  padding: 18px 24px 21px;
+}
+
+.news__mini-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #10375c;
+}
+
+.news__mini-desc {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 24px;
+  color: #575f66;
+}
+
+.new__how__link {
+  margin-top: 12px;
+}
+
+.news__item + .news__item {
+  margin-left: 30px;
+}
+
+/* ------appointment---------- */
+.appointment {
+  margin-top: 170px;
+}
+
+.appointment__main-content {
+  background: #f6fbff;
+}
+
+.appointment__body {
+  padding: 100px 0;
+}
+
+.appointment__sub-title {
+}
+
+.appointment__rectangle {
+  margin: 18px auto 0;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+
+.appointment__body {
+  text-align: center;
+}
+
+.appointment__desc {
+  width: 617px;
+  margin: 18px auto 0;
+}
+
+.appointment__btn {
+  margin: 38px auto 0;
 }
