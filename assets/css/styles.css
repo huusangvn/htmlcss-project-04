@@ -755,6 +755,10 @@ nav a:hover {
 .appointment__desc {
   width: 617px;
   margin: 18px auto 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #575f66;
 }
 
 .appointment__btn {
