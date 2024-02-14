@@ -74,7 +74,7 @@
       </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="Home">
       <section class="main-content hero__main-content">
         <!-- Hero-left -->
         <div class="hero-left">
@@ -113,7 +113,7 @@
       </section>
     </section>
 
-    <main id="Home">
+    <main >
       <!-- Service -->
 
       <section class="service" id="service">
@@ -281,53 +281,65 @@
           </div>
           <ul class="member__list-item">
             <li class="member__item">
-              <img
-                src="./assets/img/Doctor1.png"
-                alt=""
-                class="member__doctor"
-              />
+            <div class="member-image">
+                <img
+                  src="./assets/img/Doctor1.png"
+                  alt=""
+                  class="member__doctor"
+                />
+            </div>
               <div class="member__info">
-                <div class="name-doctor">Dr. Essence Page</div>
-                <div class="adrres-doctor">
+                <h3 class="name-doctor">Dr. Essence Page</h3>
+                <div class="adrress-doctor">
+                  DDS, California - Linda University
+                </div>
+              </div>
+            </li>
+
+            <!-- Member 2 -->
+            <li class="member__item">
+             <div class="member-image">
+                <img
+                  src="./assets/img/doctor2.png"
+                  alt=""
+                  class="member__doctor"
+                />
+             </div>
+              <div class="member__info">
+                <h3 class="name-doctor">Dr. Essence Page</h3>
+                <div class="adrress-doctor">
                   DDS, California - Linda University
                 </div>
               </div>
             </li>
             <li class="member__item">
-              <img
-                src="./assets/img/doctor2.png"
-                alt=""
-                class="member__doctor"
-              />
+             <div class="member-image">
+                <img
+                  src="./assets/img/doctor3.png"
+                  alt=""
+                  class="member__doctor"
+                />
+             </div>
               <div class="member__info">
-                <div class="name-doctor">Dr. Essence Page</div>
-                <div class="adrres-doctor">
+                <h3 class="name-doctor">Dr. Essence Page</h3>
+                <div class="adrress-doctor">
                   DDS, California - Linda University
                 </div>
               </div>
             </li>
+
+            <!-- Member 3 -->
             <li class="member__item">
-              <img
-                src="./assets/img/doctor3.png"
-                alt=""
-                class="member__doctor"
-              />
+             <div class="member-image">
+                <img
+                  src="./assets/img/doctor4.png"
+                  alt=""
+                  class="member__doctor"
+                />
+             </div>
               <div class="member__info">
-                <div class="name-doctor">Dr. Essence Page</div>
-                <div class="adrres-doctor">
-                  DDS, California - Linda University
-                </div>
-              </div>
-            </li>
-            <li class="member__item">
-              <img
-                src="./assets/img/doctor4.png"
-                alt=""
-                class="member__doctor"
-              />
-              <div class="member__info">
-                <div class="name-doctor">Dr. Essence Page</div>
-                <div class="adrres-doctor">
+                <h3 class="name-doctor">Dr. Essence Page</h3>
+                <div class="adrress-doctor">
                   DDS, California - Linda University
                 </div>
               </div>
@@ -335,16 +347,24 @@
           </ul>
 
           <div class="member__arrow arrow">
-            <img
-              src="./assets/img/arrow-left.svg"
-              alt=""
-              class="arrow__img-left"
-            />
-            <img
-              src="./assets/img/arrow-right.svg"
-              alt=""
-              class="arrow__img-right"
-            />
+            <!-- Previous  -->
+            <button class="member__arrow-btn">
+              <svg 
+              
+              width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <!-- Next -->
+           <button class="member__arrow-btn">
+            <svg 
+            class="member__arrow-next-icon"
+            width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 1L0.5 6L5.5 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              
+           </button>
           </div>
         </div>
       </section>
