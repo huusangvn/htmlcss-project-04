@@ -635,12 +635,14 @@ nav a:hover {
 }
 
 .news__link {
+  display: inline-block;
   font-family: Inter;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 28px;
   color: #575f66;
-  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-line: underline;
 }
 
 .news__main-content {
@@ -654,8 +656,17 @@ nav a:hover {
 
 .news__item {
   width: 270px;
-  border-radius: 12px, 12px, 0px, 0px;
-  border: 1px;
+  border-radius: 12px;
+  transition: 0.25s;
+  overflow: hidden;
+}
+
+.news__item:hover .vacine-info {
+  border-color: #fff;
+}
+
+.news__item:hover {
+  box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
 }
 
 .news__arrow {
@@ -666,6 +677,11 @@ nav a:hover {
 
 .vacine-info {
   padding: 18px 24px 21px;
+  background: #fff;
+  border: 1px solid #e8ebee;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  transition: 0.25s;
 }
 
 .news__mini-title {
@@ -684,10 +700,32 @@ nav a:hover {
 
 .new__how__link {
   margin-top: 12px;
+  color: #10375c;
+}
+
+.news__item:hover .new__how__link {
+  color: #2e80ce;
 }
 
 .news__item + .news__item {
   margin-left: 30px;
+}
+
+.news-item__thumb {
+  height: 172px;
+  overflow: hidden;
+}
+
+.vacine {
+  display: block;
+  width: 270px;
+  height: 172px;
+  object-fit: cover;
+  transition: 0.25s;
+}
+
+.news__item:hover .vacine {
+  transform: scale(1.1);
 }
 
 /* ------appointment---------- */
@@ -701,9 +739,6 @@ nav a:hover {
 
 .appointment__body {
   padding: 100px 0;
-}
-
-.appointment__sub-title {
 }
 
 .appointment__rectangle {
